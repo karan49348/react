@@ -1,0 +1,40 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #575356;
+  padding: 15px 30px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Links container */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Links */
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #ffd7c2;
+}
+
+/* Active effect */
+.nav-links a.active {
+  border-bottom: 2px solid white;
+}

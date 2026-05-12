@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.hobbie-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hobbie-box {
+  background: white;
+  color: black;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.hobbie-box p {
+  font-size: 18px;
+  margin: 10px 0;
+}

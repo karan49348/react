@@ -1,0 +1,23 @@
+.list {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
