@@ -1,0 +1,13 @@
+//Age 18 se greater ya marks 90 se greater (OR condition) wale students ki query kya hogi?
+//Age 18 se greater aur 25 se less students ko find karna hai. Query kya hogi?
+# db.student.find({$and:[
+#   {age:{$gt:18}},
+#   {age:{$lt:25}}
+# ]})
+#  db.student.find({
+# marks:{$nin:[50,70,90]}
+#  })
+#  db.student.find({deletOne{name:"karan"}})
+ db.student.updateOne({name:"karan",city:"japur"},
+ {city:"jodhpur"}
+ )

@@ -8,7 +8,8 @@ import Api from "./Api";
 import Cart from "./Cart";
 import Wishlist from "./Wishlist";
 import Middleware from "./Middleware";
-
+ import Test from "./Test";
+  import FormSubmit from "./FormSubmit";
 function App() {
   return (
     <Suspense
@@ -24,6 +25,9 @@ function App() {
         <Routes>
           <Route path="/Login" element={<Login />} />
           <Route path="/Singup" element={<Singup />} />
+          <Route path="/Test" element={<Test />} />
+          <Route path="/FormSubmit" element={<FormSubmit />} />
+
           <Route
             path="/Api"
             element={

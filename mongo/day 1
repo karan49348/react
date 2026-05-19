@@ -1,0 +1,3 @@
+db.students.find({
+  $and: [{ city: "Jaipur" }, { age: 23 }],
+});

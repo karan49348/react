@@ -14,6 +14,12 @@ const Header = () => {
           >
             Login
           </Link>
+          <Link
+            to="/Test"
+            className="text-white text-lg font-medium hover:text-yellow-300 transition"
+          >
+            Test
+          </Link>
 
           <Link
             to="/Singup"
@@ -22,6 +28,7 @@ const Header = () => {
             Signup
           </Link>
 
+          <Link to="FormSubmit">form</Link>
           <Link
             to="/Api"
             className="text-white text-lg font-medium hover:text-yellow-300 transition"
