@@ -1,3 +1,26 @@
-db.students.find({
-  $and: [{ city: "Jaipur" }, { age: 23 }],
-});
+// db.student.insertMany([
+//   { name: "Karan", age: 24, class: "BCA", marks: 85 },
+//   { name: "Rahul", age: 22, class: "BCA", marks: 78 },
+//   { name: "Aman", age: 23, class: "BSc", marks: 90 },
+//   { name: "Rohit", age: 21, class: "BCom", marks: 67 },
+//   { name: "Priya", age: 20, class: "BA", marks: 88 },
+//   { name: "Neha", age: 22, class: "BCA", marks: 76 },
+//   { name: "Vikas", age: 24, class: "BTech", marks: 92 },
+//   { name: "Pooja", age: 19, class: "BSc", marks: 81 },
+//   { name: "Ankit", age: 25, class: "MBA", marks: 73 },
+//   { name: "Simran", age: 21, class: "BCA", marks: 95 },
+// ]);
+ db.student.insertMany([
+   {
+     name: "karan",
+     age: 20,
+   },
+   {
+     name: "rahul",
+     age: 22,
+   },
+   {
+     name: "raja",
+     age: 30,
+   },
+ ]);
